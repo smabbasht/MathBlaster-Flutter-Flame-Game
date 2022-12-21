@@ -1,4 +1,3 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:mathblaster_game/constants.dart';
 import 'package:mathblaster_game/widgets/main_menu_button.dart';
@@ -35,8 +34,8 @@ class _MainMenuState extends State<MainMenu> {
               width: screenWidth,
             ),
             const MainMenuButton(
-              buttonText: 'Play',
-              pathText: 'play',
+              buttonText: 'Play Game',
+              pathText: 'game',
             ),
             SizedBox(
               height: screenHeight*0.005,
