@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'screens/main_menu.dart';
 import 'screens/high_scores.dart';
 import 'screens/settings.dart';
+import 'screens/game.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,6 +25,7 @@ class MyApp extends StatelessWidget {
         '/main_menu': (context) => const MainMenu(),
         '/high_scores': (context) => const HighScores(),
         '/settings': (context) => const Settings(),
+        '/game': (context) => const Game(),
       },
     );
   }

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mathblaster_game/constants.dart';
 import 'package:mathblaster_game/widgets/global_app_bar.dart';
 
 class Settings extends StatelessWidget {

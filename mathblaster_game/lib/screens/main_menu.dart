@@ -26,7 +26,7 @@ class _MainMenuState extends State<MainMenu> {
               width: screenWidth*0.275,
               height: screenHeight*0.16,
               image: const AssetImage(
-                'assets/images/logo.gif',
+                'assets/images/logo.png',
                 ),
             ),
             SizedBox(
